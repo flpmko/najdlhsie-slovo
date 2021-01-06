@@ -18,7 +18,13 @@ Slovo::Slovo(char* paText)
 		this->dlzka = strlen(this->text);
 	}
 	else
-		cout << "SLOVO JE PRILIS DLHE!" << endl;
+	{
+		cout << "SLOVO JE PRILIS DLHE!\n"
+			<< "------------------------------------------------\n";
+		text = new char[2];
+		strcpy(text, "");
+		this->dlzka = strlen(this->text);
+	}
 }
 
 Slovo::Slovo(const Slovo& zdroj)
@@ -31,7 +37,13 @@ Slovo::Slovo(const Slovo& zdroj)
 		this->dlzka = strlen(this->text);
 	}
 	else
-		cout << "SLOVO JE PRILIS DLHE!" << endl;
+	{
+		cout << "SLOVO JE PRILIS DLHE!\n"
+			<< "------------------------------------------------\n";
+		text = new char[2];
+		strcpy(text, "");
+		this->dlzka = strlen(this->text);
+	}
 }
 
 Slovo Slovo::operator=(const Slovo& zdroj)
@@ -48,7 +60,13 @@ Slovo Slovo::operator=(const Slovo& zdroj)
 			this->dlzka = strlen(this->text);
 		}
 		else
-			cout << "SLOVO JE PRILIS DLHE!" << endl;
+		{
+			cout << "SLOVO JE PRILIS DLHE!\n"
+				<< "------------------------------------------------\n";
+			text = new char[2];
+			strcpy(text, "");
+			this->dlzka = strlen(this->text);
+		}
 	}
 	return Slovo();
 }
