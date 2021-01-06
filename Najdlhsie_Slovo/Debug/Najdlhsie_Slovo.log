@@ -1,0 +1,3 @@
+﻿  Vstup.cpp
+C:\Users\flpmk\source\repos\Najdlhsie_Slovo_Solution\Najdlhsie_Slovo\Vstup.cpp(19,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Najdlhsie_Slovo.vcxproj -> C:\Users\flpmk\source\repos\Najdlhsie_Slovo_Solution\Debug\Najdlhsie_Slovo.exe
