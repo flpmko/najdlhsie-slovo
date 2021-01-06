@@ -36,6 +36,6 @@ int Vstup::zistiVelkost()
 
 Vstup::~Vstup()
 {
-	/*delete[] nazovSuboru;
-	nazovSuboru = nullptr;*/
+	/*delete[] this->nazovSuboru;
+	this->nazovSuboru = nullptr;*/
 }

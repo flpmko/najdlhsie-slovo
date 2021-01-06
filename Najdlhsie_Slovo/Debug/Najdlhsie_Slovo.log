@@ -1,14 +1,3 @@
-﻿  Slovo.cpp
-C:\Users\flpmk\source\repos\Najdlhsie_Slovo_Solution\Najdlhsie_Slovo\Slovo.cpp(18,35): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
-C:\Users\flpmk\source\repos\Najdlhsie_Slovo_Solution\Najdlhsie_Slovo\Slovo.cpp(26,35): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
-C:\Users\flpmk\source\repos\Najdlhsie_Slovo_Solution\Najdlhsie_Slovo\Slovo.cpp(17,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\flpmk\source\repos\Najdlhsie_Slovo_Solution\Najdlhsie_Slovo\Slovo.cpp(25,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\flpmk\source\repos\Najdlhsie_Slovo_Solution\Najdlhsie_Slovo\Slovo.cpp(37,35): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
-C:\Users\flpmk\source\repos\Najdlhsie_Slovo_Solution\Najdlhsie_Slovo\Slovo.cpp(45,35): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
-C:\Users\flpmk\source\repos\Najdlhsie_Slovo_Solution\Najdlhsie_Slovo\Slovo.cpp(36,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\flpmk\source\repos\Najdlhsie_Slovo_Solution\Najdlhsie_Slovo\Slovo.cpp(44,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\flpmk\source\repos\Najdlhsie_Slovo_Solution\Najdlhsie_Slovo\Slovo.cpp(60,36): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
-C:\Users\flpmk\source\repos\Najdlhsie_Slovo_Solution\Najdlhsie_Slovo\Slovo.cpp(68,36): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
-C:\Users\flpmk\source\repos\Najdlhsie_Slovo_Solution\Najdlhsie_Slovo\Slovo.cpp(59,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\flpmk\source\repos\Najdlhsie_Slovo_Solution\Najdlhsie_Slovo\Slovo.cpp(67,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+﻿  Vstup.cpp
+C:\Users\flpmk\source\repos\Najdlhsie_Slovo_Solution\Najdlhsie_Slovo\Vstup.cpp(19,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   Najdlhsie_Slovo.vcxproj -> C:\Users\flpmk\source\repos\Najdlhsie_Slovo_Solution\Debug\Najdlhsie_Slovo.exe
