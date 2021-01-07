@@ -15,10 +15,7 @@ public:
 	void vymen(Slovo& a, Slovo& b);
 	void vypis();
 	void vypis(int pozicia);
-	inline int getVelkost()
-	{
-		return this->velkost;
-	};
+	inline int getVelkost() { return this->velkost; };
 	~Databaza();
 };
 

@@ -22,6 +22,28 @@ Vstup::Vstup(char* paNazovSuboru)
 	this->nazovSuboru = nullptr;
 }
 
+Vstup::Vstup(const Vstup& zdroj)
+{
+	if (this != &zdroj)
+	{
+		int dlzka = strlen(zdroj.nazovSuboru);
+		nazovSuboru = new char[dlzka + 1];
+		strcpy(nazovSuboru, zdroj.nazovSuboru);
+	}
+}
+
+Vstup Vstup::operator=(const Vstup& zdroj)
+{
+	if (this != &zdroj)
+	{
+		Vstup::~Vstup();
+		int dlzka = strlen(zdroj.nazovSuboru);
+		nazovSuboru = new char[dlzka + 1];
+		strcpy(nazovSuboru, zdroj.nazovSuboru);
+	}
+	return *this;
+}
+
 int Vstup::zistiVelkost()
 {
 	int velkost = 0;
@@ -36,6 +58,6 @@ int Vstup::zistiVelkost()
 
 Vstup::~Vstup()
 {
-	/*delete[] this->nazovSuboru;
-	this->nazovSuboru = nullptr;*/
+	delete[] nazovSuboru;
+	this->nazovSuboru = nullptr;
 }
