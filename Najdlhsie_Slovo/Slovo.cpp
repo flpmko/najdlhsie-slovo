@@ -10,20 +10,23 @@ Slovo::Slovo()
 
 Slovo::Slovo(char* paText)
 {
-	int velkost = strlen(paText);
-	if (velkost < 51)
+	if (paText && *paText != 0)
 	{
-		text = new char[velkost + 1];
-		strcpy(text, paText);
-		this->dlzka = strlen(this->text);
-	}
-	else
-	{
-		cout << "SLOVO JE PRILIS DLHE!\n"
-			<< "------------------------------------------------\n";
-		text = new char[2];
-		strcpy(text, "");
-		this->dlzka = strlen(this->text);
+		int velkost = strlen(paText);
+		if (velkost < 51)
+		{
+			text = new char[velkost + 1];
+			strcpy(text, paText);
+			this->dlzka = strlen(this->text);
+		}
+		else
+		{
+			cout << "SLOVO JE PRILIS DLHE!\n"
+				<< "------------------------------------------------\n";
+			text = new char[2];
+			strcpy(text, "");
+			this->dlzka = strlen(this->text);
+		}
 	}
 }
 

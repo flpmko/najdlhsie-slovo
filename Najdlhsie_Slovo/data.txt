@@ -9,3 +9,4 @@ sviatky
 dedicnost
 polymorfizmus
 asdfghjklqwertyuiopzxcvbnmasdfgthlyueqwerjasdfhrnrfnsasdf
+polymorfizmus

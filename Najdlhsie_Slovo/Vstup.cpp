@@ -12,7 +12,7 @@ Vstup::Vstup()
 
 Vstup::Vstup(char* paNazovSuboru)
 {
-	if (paNazovSuboru != nullptr)
+	if (paNazovSuboru && *paNazovSuboru != 0)
 	{
 		int dlzka = strlen(paNazovSuboru);
 		nazovSuboru = new char[dlzka+1];
